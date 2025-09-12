@@ -1,0 +1,1 @@
+# react_dinamikus_urlap
