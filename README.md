@@ -1,12 +1,35 @@
-# React + Vite
+# Bridge's react
+Dinamikus Űrlap Alkalmazás
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Modern, mobilbarát React alkalmazás, amely API-ból dinamikusan generál űrlapokat.
 
-Currently, two official plugins are available:
+# Funkciók
+- Dinamikus űrlapgenerálás API alapján
+- Mobilbarát, reszponzív design
+- Valós idejű progress bar
+- Azonnali validáció és vizuális feedback
+- Loading állapotok és error handling
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Stack
+- React 18 + Hooks
+- Tailwind CSS
+- Lucide React icons
+- Vite
 
-## Expanding the ESLint configuration
+# Telepítés
+```bash
+npm install
+npm run dev
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Fájlok
+- `App.jsx` - Fő alkalmazás logika
+- `FormField.jsx` - Dinamikus form mezők
+- `Alert.jsx` - Hiba/siker üzenetek  
+- `Spinner.jsx` - Loading indikátor
+
+# Validáció
+- Minden mező kötelező
+- Integer: pozitív egész számok
+- Text: minimum 2 karakter
+- Choice: egy opció kiválasztása kötelező
