@@ -22,6 +22,7 @@ Kérheti az alábbiakat:
 npm install axios
 npm install lucide-react
 ```
+Indítás előtt:
 ```bash
 npm install
 npm run dev
