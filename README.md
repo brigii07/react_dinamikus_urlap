@@ -17,6 +17,11 @@ Modern, mobilbarát React alkalmazás, amely API-ból dinamikusan generál űrla
 - Vite
 
 # Telepítés
+Kérheti az alábbiakat:
+```bash
+npm install axios
+npm install lucide-react
+```
 ```bash
 npm install
 npm run dev
